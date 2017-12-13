@@ -7,4 +7,36 @@ Template:       enlighten
 Version:        1.0.0
 */
 
-@import url("../enlighten/style.css");
+#header_slider_wrap .bx-wrapper, .news_slide_wrap .bx-wrapper {
+    margin-bottom: 0;
+}
+#header_slider_wrap .bx-wrapper .bx-viewport li:after {
+    background: transparent;
+}
+#section_news_twitter_message .NTM_wrap {
+    width: 100%;
+}
+#section_news_twitter_message .week-offer {
+    width: 25%;
+    display: table-cell;
+    background: #1e66a6;
+    vertical-align: top;
+}
+.week-offer .single-offer-wrapper {
+    border-bottom: 1px solid #4590cf;
+    padding: 20px 30px 30px;
+    margin-bottom: 0;
+}
+#section_news_twitter_message .week-offer h2 {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 26px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 400;
+}
+.week-offer .offer-content a {
+    color: #d5d5d5;
+    font-size: 15px;
+}
