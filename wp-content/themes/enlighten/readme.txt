@@ -48,7 +48,8 @@ JS Files
     
     
 === Update Log ====  
-
+Version 1.1.6
+* Minor css Bug Fixes
 Version 1.1.5
 * Minor Bug Fixes
 * Updated bxSlider Plugin

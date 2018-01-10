@@ -4,7 +4,7 @@ Theme URI: https://accesspressthemes.com/wordpress-themes/enlighten/
 Author: AccesspressThemes
 Author URI: https://accesspressthemes.com/
 Description: Enlighten is a responsive FREE education WordPress theme ideal for creating college, school, university and other academic/ educational websites. It is a fully Customizer based user-friendly theme which allows you to customize most of the theme settings instantly with live real time live previews. It is a clean and elegant modern WordPress theme with plenty of flexibility and features - you can use for various types of business websites as well. Enlighten is fully mobile-responsive so that your website content is sure to look great on any device. It features homepage sliders, Multiple menu options, carousel portfolio and service section, video section, client section  etc. It is a fully widgetized theme with multiple widget areas. Create a beautiful education website and enlighten the world. For Demo http://demo.accesspressthemes.com/enlighten
-Version: 1.1.5
+Version: 1.1.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: enlighten
@@ -877,12 +877,10 @@ header.site-header {
 	display: block;
 	width: 0px;
 	height: 0px;
-	border-top: 39px solid;
-	border-left: 39px solid transparent;
 	position: absolute;
 	left: 50%;
 	margin-left: -39px;
-	border-top-color: #333;
+	border: none;
 }
 .social_htext_wrap .header_social_link {
 	float: right;

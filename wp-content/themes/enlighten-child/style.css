@@ -6,7 +6,9 @@ Author URI:     http: //www.satish-dongol.com.np/
 Template:       enlighten
 Version:        1.0.0
 */
-
+a:hover {
+    text-decoration: none;
+}
 #header_slider_wrap .bx-wrapper, .news_slide_wrap .bx-wrapper {
     margin-bottom: 0;
 }
@@ -39,4 +41,45 @@ Version:        1.0.0
 .week-offer .offer-content a {
     color: #d5d5d5;
     font-size: 15px;
+}
+#section_service {
+    padding: 0;
+    margin-bottom: 60px;
+}
+#section_service .service_slider.owl-carousel {
+    bottom: -50px;
+}
+.phone_header .fa_icon, .email_header .fa_icon, .location_header .fa_icon {
+    line-height: 54px;
+    vertical-align: middle;
+}
+.tnp-widget-minimal input.tnp-email {
+    border: none!important;
+    border-radius: unset!important;
+}
+.tnp-widget-minimal input.tnp-submit {
+    margin-top: 5px!important;
+    background: #257A2B!important;
+    box-shadow: none!important;
+    transition: all 0.5s;
+}
+.tnp-widget-minimal input.tnp-submit:hover {
+    background: #1E66A6!important;
+}
+input[type="text"].wpcf7-form-control, input[type="email"].wpcf7-form-control {
+    padding: 6px 12px;
+}
+button.theme-btn, input[type="button"].theme-btn, input[type="reset"].theme-btn, input[type="submit"].theme-btn {
+    background: #257A2B;
+    padding: 10px 100px;
+    font-size: inherit;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    border-radius: unset;
+    text-shadow: none;
+    transition: all 0.5s;
+}
+button.theme-btn:hover, input[type="button"].theme-btn:hover, input[type="reset"].theme-btn:hover, input[type="submit"].theme-btn:hover {
+    background: #1E66A6;
 }

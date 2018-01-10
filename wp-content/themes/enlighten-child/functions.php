@@ -6,3 +6,5 @@ function enqueue_parent_styles() {
 }
 
 require get_stylesheet_directory() . '/inc/enlighten-child-functions.php';
+
+add_image_size('home-services-image','400','',true);
