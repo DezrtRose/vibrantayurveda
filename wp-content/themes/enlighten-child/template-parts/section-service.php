@@ -22,7 +22,7 @@ if($enlighten_service_enable){
                 $enlighten_i++;
         endwhile;
         wp_reset_postdata();
-        $enlighten_chunk_array =array_chunk($enlighten_post_array, 4);
+        $enlighten_chunk_array =array_chunk($enlighten_post_array, 2);
         ?><div class="ak-container">
             <div class="effect_title">
                 <div class="after-effet1"></div>
@@ -43,7 +43,7 @@ if($enlighten_service_enable){
                         foreach($enlighten_chunk_array as $enlighten_post_arrays){ ?>
                         <div class="array_service"> <?php
                                 foreach($enlighten_post_arrays as $enlighten_posts){
-                                    $enlighten_image = wp_get_attachment_image_src(get_post_thumbnail_id($enlighten_posts),'home-services-image');
+                                    $enlighten_image = wp_get_attachment_image_src(get_post_thumbnail_id($enlighten_posts),'home-service-image');
                                     $enlighten_image_url = $enlighten_image['0'];
                                     $enlighten_post_get_content = get_post($enlighten_posts);
                                     $enlighten_title = $enlighten_post_get_content->post_title;

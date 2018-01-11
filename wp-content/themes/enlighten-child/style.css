@@ -49,8 +49,11 @@ a:hover {
 #section_service .service_slider.owl-carousel {
     bottom: -50px;
 }
+.title_phone .phone, .title_email_wrap .email_address, .title_location_wrap .location {
+    font-size: 12px;
+}
 .phone_header .fa_icon, .email_header .fa_icon, .location_header .fa_icon {
-    line-height: 54px;
+    line-height: 48px;
     vertical-align: middle;
 }
 .tnp-widget-minimal input.tnp-email {
@@ -82,4 +85,16 @@ button.theme-btn, input[type="button"].theme-btn, input[type="reset"].theme-btn,
 }
 button.theme-btn:hover, input[type="button"].theme-btn:hover, input[type="reset"].theme-btn:hover, input[type="submit"].theme-btn:hover {
     background: #1E66A6;
+}
+.service_slider .image_title .service_title {
+    margin-bottom: 10px;
+}
+.service_slider .owl-item .content_wrap {
+    padding: 25px 60px;
+}
+.news_slide_wrap .bx-wrapper .bx-controls-direction a {
+    opacity: 1;
+}
+.header_info_wrap .location_header {
+    float: right;
 }

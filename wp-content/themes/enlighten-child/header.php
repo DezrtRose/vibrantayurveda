@@ -57,39 +57,22 @@
                 $enlighten_enable_info = esc_attr(get_theme_mod('enlighten_enable_header_info'));
                 if ($enlighten_enable_info) { ?>
                     <div class="header_info_wrap">
-                        <?php $enlighten_number = get_theme_mod('enlighten_phone_header');
-                        if ($enlighten_number) { ?>
-                            <div class="phone_header wow fadeIn">
-                                <div class="fa_icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                                <div class="title_phone">
-                                    <span class="pnone_title"><?php esc_html_e('Call Support', 'enlighten'); ?></span>
-                                    <span class="phone">07-38462272, 0452506389</span>
-                                    <span class="phone">07-55200657, 0437054211</span>
-                                </div>
+                        <div class="location_header wow fadeIn">
+                            <div class="fa_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <div class="title_location_wrap">
+                                <span class="title_location">Gold Coast Centre</span>
+                                <span class="location"><a href="tel:07-55200657">07-55200657</a>, <a href="tel:0437054211">0437054211</a></span>
+                                <span class="location">goldcoast@vibrantayurveda.com.au</span>
                             </div>
-                        <?php }
-                        $enlighten_email = get_theme_mod('enlighten_email_header');
-                        if ($enlighten_email) { ?>
-                            <div class="email_header wow fadeIn">
-                                <div class="fa_icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                                <div class="title_email_wrap">
-                                    <span class="title_email"><?php esc_html_e('Email Support', 'enlighten'); ?></span>
-                                    <span class="email_address">info@vibrantayurveda.com.au</span>
-                                    <span class="email_address">goldcoast@vibrantayurveda.com.au</span>
-                                </div>
+                        </div>
+                        <div class="location_header wow fadeIn">
+                            <div class="fa_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                            <div class="title_location_wrap">
+                                <span class="title_location">Brisbane Centre</span>
+                                <span class="location"><a href="tel:07-38462272">07-38462272</a>, <a href="tel:0452506389">0452506389</a></span>
+                                <span class="location">info@vibrantayurveda.com.au</span>
                             </div>
-                        <?php }
-                        $enlighten_location = get_theme_mod('enlighten_localtion_header');
-                        if ($enlighten_location) { ?>
-                            <div class="location_header wow fadeIn">
-                                <div class="fa_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                                <div class="title_location_wrap">
-                                    <span class="title_location"><?php esc_html_e('Location', 'enlighten'); ?></span>
-                                    <span class="location">Brisbane Centre</span>
-                                    <span class="location">Gold Coast Centre</span>
-                                </div>
-                            </div>
-                        <?php } ?>
+                        </div>
                     </div>
                 <?php } ?>
             </div>
